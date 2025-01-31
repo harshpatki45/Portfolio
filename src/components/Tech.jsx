@@ -10,6 +10,8 @@ import Bootstrap from "../assets/icons8-bootstrap.png";
 import Software from "../assets/software-development.png";
 import { FaNodeJs } from "react-icons/fa";
 import { motion } from 'framer-motion';
+import Express from "../assets/icons8-express-js-50.png";
+import MySql from "../assets/mysql-50.png"
 
 const iconVariants= (duration) => ({
     initial: { y: -10 },
@@ -51,14 +53,14 @@ const Tech = () => {
             initial="initial"
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img className="text-6xl text-cyan-400" src={Git} alt=""/>
+                <img className="text-6xl  bg-white rounded text-cyan-400" src={Express} alt=""/>
             </motion.div>
             <motion.div
             variants={slowIconVariants}
             initial="initial"
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img  className="text-6xl text-cyan-400" src={javascript} alt="" />
+                <img  className="text-6xl text-cyan-400" src={MongoDB} alt="" />
 
             </motion.div>
             <motion.div 
@@ -73,35 +75,14 @@ const Tech = () => {
             initial="initial"
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img src={MongoDB} alt="" className="text-6xl text-cyan-400" />
+                <img src={javascript} alt="" className="text-6xl text-cyan-400" />
             </motion.div>
             <motion.div 
             variants={slowIconVariants}
             initial="initial"
             animate="animate" 
             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img src={Tailwind} alt="" className="text-6xl text-cyan-400" />
-            </motion.div>
-            <motion.div
-            variants={slowIconVariants}
-            initial="initial"
-            animate="animate"
-             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img src={Material} alt="" className="text-6xl text-cyan-400 h-12 w-12" />
-            </motion.div>
-            <motion.div
-            variants={slowIconVariants}
-            initial="initial"
-            animate="animate"
-             className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img src={Django} alt="" className="text-6xl text-cyan-400 h-12 w-12" />
-            </motion.div>
-            <motion.div 
-            variants={slowIconVariants}
-            initial="initial"
-            animate="animate"
-            className="rounded-2xl border-4 border-neutral-800 p-4">
-                <img src={Bootstrap} alt="" className="text-6xl text-cyan-400 h-12 w-12" />
+                <img src={MySql} alt="" className="text-6xl text-cyan-400  bg-white rounded" />
             </motion.div>
             <motion.div
             variants={slowIconVariants}
@@ -109,6 +90,27 @@ const Tech = () => {
             animate="animate"
              className="rounded-2xl border-4 border-neutral-800 p-4">
                 <img src={Software} alt="" className="text-6xl text-cyan-400 h-12 w-12" />
+            </motion.div>
+            <motion.div
+            variants={slowIconVariants}
+            initial="initial"
+            animate="animate"
+             className="rounded-2xl border-4 border-neutral-800 p-4">
+                <img src={Tailwind} alt="" className="text-6xl text-cyan-400 h-12 w-12" />
+            </motion.div>
+            <motion.div 
+            variants={slowIconVariants}
+            initial="initial"
+            animate="animate"
+            className="rounded-2xl border-4 border-neutral-800 p-4">
+                <img src={Material} alt="" className="text-6xl text-cyan-400 h-12 w-12 " />
+            </motion.div>
+            <motion.div
+            variants={slowIconVariants}
+            initial="initial"
+            animate="animate"
+             className="rounded-2xl border-4 border-neutral-800 p-4">
+                <img src={Git} alt="" className="text-6xl text-cyan-400 h-12 w-12" />
             </motion.div>
             
         </motion.div>
