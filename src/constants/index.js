@@ -15,14 +15,14 @@ export const PROJECTS = [
     image: project4,
     description:
       "Developed a dynamic web application using the MERN stack that allows users to create, read, update, and delete (CRUD) products. Features include product creation with name, price, and image URL, price updates, and product deletion. This project enhanced my understanding of RESTful APIs, efficient state management, and full-stack development principles. ",
-    technologies: ["MERN Stack", "RESTful APIs", "Tailwind CSS"],
+    technologies: ["MERN Stack", "RESTful APIs", "Tailwind "],
   },
   {
     title: "Travel Story",
     image: project1,
     description:
       "A MERN stack-based website where users can share and explore travel stories. Features include secure user authentication, a feed of travel stories with options to create, edit, or delete personal stories, and filter stories by location or category. Users can also manage their profiles, making it a simple and engaging platform for travelers to document and discover adventures. ",
-    technologies: ["MERN Stack", "RESTful APIs", "Tailwind CSS"],
+    technologies: ["MERN Stack", "RESTful APIs", "Tailwind "],
   },
   {
     title: " Employee Management System",
@@ -31,7 +31,7 @@ export const PROJECTS = [
       ` Employee Management System (EMS) with Role-Based Access Control (RBAC):  The EMS simplifies task allocation and management within organizations, using local storage for data handling. 
          "Admin Dashboard": For authorized administrators to create and assign tasks with details like title, due date, employee, category, and description. 
          "Employee Dashboard": For employees to view their assigned tasks, track progress, and update task status.`,
-    technologies: ["React", "Tailwind CSS", "Local Storage"],
+    technologies: ["React", "Tailwind", "Local Storage"],
   },
   {
     title: "Fitness Exercise App",
